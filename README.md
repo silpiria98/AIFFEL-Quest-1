@@ -8,3 +8,6 @@
 
 05/28 ```playground```
 - chapter7 및 playground 실험
+
+05/30 ```kaggle_kakr_housing```
+- 2019 2nd ML month with KaKR 실습
