@@ -26,10 +26,16 @@
 
 
 - [X]  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
-    - []  모델 선정 이유 
-    - []  Metrics 선정 이유  
-    - []  Loss 선정 이유
-    - 모델 선정 이유나 Metrics 선정이유, Loss 선정 이유는 없었지만 하면서 궁금했던 점에 대해서 주석을 달아놓거나<br>
+    - [X]  모델 선정 이유
+      ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/f74dedef-40cc-4d50-bc54-d910a168243e)
+
+    - [X]  Metrics 선정 이유
+      ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/e2b8e49f-d1c7-401e-8a1c-fa319ecde5d8)
+
+    - [X]  Loss 선정 이유
+      ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/b8543e60-1f1c-42d5-af7a-cec04c0dc73c)
+
+    - 하면서 궁금했던 점에 대해서 주석을 달아놓거나   
     ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/104029654/909a5f00-2ec5-4091-acd2-e9b6af370a74)<br>
       중요부분에 주석을 달아주셨습니다.<br>
       ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/104029654/19633cbb-2242-4a03-8a05-1e8e53c3523f) <br>
