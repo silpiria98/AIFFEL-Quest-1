@@ -10,7 +10,7 @@
 3. TF-IDF + 불용어 제거 + 동사
   ![heatmap_simple_tfidf_verb](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/a66d948f-a1d5-419a-9c24-3d1e52093219)
 
-4. 빈도수 + 불용어 제거
+4. DTM + 불용어 제거
    ![heatmap_count](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/b7cec54a-d3f3-4d33-9c10-230c85706d5a)
 
 ## 코더 회고
