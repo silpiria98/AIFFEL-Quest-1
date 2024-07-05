@@ -3,21 +3,30 @@
    - 불용어 제거하지 않음
    - 명사만 활용
      ![heatmap_simple_tfidf0](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/f13eb847-c31b-463f-a5f8-9fe6fec311c1)
-
+   - 기타, 다큐멘터리, 멜로로맨스, 뮤지컬, 성인물 장르가 편향성이 크다
+       
 2. TF-IDF + 불용어 제거
    ![heatmap_simple_tfidf](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/93534549-e9f5-409d-9e72-f7955e654ac4)
+   - 1과 비교해 기타와 다큐멘터리에 대한 편향이 감소했다. 두 장르 다 일반적인 언어를 많이 사용하다보니 불용어에 더 민감하게 반응한 듯 하다
 
-3. TF-IDF + 불용어 제거 + 동사
+4. TF-IDF + 불용어 제거 + 동사
   ![heatmap_simple_tfidf_verb](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/a66d948f-a1d5-419a-9c24-3d1e52093219)
+   - 특히 멜로로맨스에 대한 편향이 다른 실험에 비해 크게 감소했음을 알 수 있다
 
-4. DTM + 불용어 제거
+5. DTM + 불용어 제거
    ![heatmap_count](https://github.com/4rldur0/AIFFEL-Quest/assets/111371565/b7cec54a-d3f3-4d33-9c10-230c85706d5a)
+   - 2와 비교했을 때 미미한 수치 변화를 제외하고는 비슷한 양상을 보인다. 따라서 이 데이터셋에 대해서는 TF-IDF와 DTM 간의 차이가 거의 없음을 알 수 있다  
+
+6. LDA
+   - 각각의 document에 같은 topic이 할당되는 문제가 계속 발생
+   - LDA 모델 초기화 시 `topic_word_prior`, `doc_topic_prior`와 같은 하이퍼파라미터 조정했지만 해결되지 않음
+   - target에서 두 문서의 중복 단어를 완전히 배제하여 LDA를 적용한 후 각각에 중복 단어를 일부 추가해보는 방법을 사용하려 했지만, 중복 단어를 없애더라도 같은 topic이 할당
 
 ## 코더 회고
-- 배운 점:
-- 아쉬운 점
-- 느낀 점
-- 어려웠던 점
+- 배운 점: 벡터화 적용과 WEAT 점수 계산 방법에 대해 배울 수 있었다
+- 아쉬운 점: LDA가 효과적이지 않아 아쉽다
+- 느낀 점: 임베딩 편향은 앞으로 점점 더 중요해질 연구 주제라고 생각된다. WEAT 말고도 다른 편향 측정방법에 대해 더 공부해보고 싶다
+- 어려웠던 점: 실험 결과를 볼 수는 있는데 각각의 결과가 왜 나왔는 지 해석하기가 어려웠다
 
 ---
 ## 리뷰어 
