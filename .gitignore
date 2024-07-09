@@ -1,3 +1,4 @@
 .README.md.swp
 .ipynb_checkpoints/
 kaggle_kakr_housing/logs.log
+seq2seq_translator/wandb
