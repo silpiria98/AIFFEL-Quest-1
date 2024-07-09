@@ -32,27 +32,39 @@
 ## 리뷰어 
 🔑 **PRT(Peer Review Template)**
 
-- []  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요? (완성도)**
-    - 문제에서 요구하는 최종 결과물이 첨부되었는지 확인
-    - 문제를 해결하는 완성된 코드란 프로젝트 루브릭 3개 중 2개, 
-    퀘스트 문제 요구조건 등을 지칭
-        - 해당 조건을 만족하는 부분의 코드 및 결과물을 캡쳐하여 사진으로 첨부
+- [o]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요? (완성도)**
+    - [o]  문제에서 요구하는 최종 결과물이 첨부되었는지 확인
+    - [o]  문제를 해결하는 완성된 코드란 프로젝트 루브릭 3개 중 2개, 퀘스트 문제 요구조건 등을 지칭
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/9c81d3b8-5347-41ee-828f-faaacf262ecf)
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/9285b41a-26dd-43c4-8d1c-18df5722f1ee)
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/123d7c23-1b32-4390-a53e-989122231829)
+    - [o]  해당 조건을 만족하는 부분의 코드 및 결과물을 캡쳐하여 사진으로 첨부
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/1af7184e-828f-41e9-aab2-9f936ad197f7)
 
+해당일자 프로젝트에서 요구한 모든 루브릭을 완료하여 코드와 기록으로 남겨져 있었습니다.
 
-- []  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
-    - []  모델 선정 이유
+- [o]  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
+    - [o]  모델 선정 이유
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/e82f5c9e-93d5-443d-af22-4d2ed7232ddc)
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/358573ce-4a98-402f-a672-8c9a7eae826b)
     - []  Metrics 선정 이유
     - []  Loss 선정 이유
+오늘 루브릭에서는 매트릭스와 loss가 필요하지 않았지만 stopword와 LDA등 다양한 방식으로 문제 접근을 수행했습니다.
 
+- [o]  **3. 체크리스트에 해당하는 항목들을 모두 수행하였나요? (문제 해결)**
+    - [o]  데이터를 분할하여 프로젝트를 진행했나요? (train, validation, test 데이터로 구분)
+    - [o]  하이퍼파라미터를 변경해가며 여러 시도를 했나요? (learning rate, dropout rate, unit, batch size, epoch 등)
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/f4b67bfd-d93b-487c-b291-a5c56361c74a)
+    - [o]  각 실험을 시각화하여 비교하였나요?
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/ee41be9e-71f6-4c1d-9f03-a9bbb58225a3)
+    - [o]  모든 실험 결과가 기록되었나요?
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/83861c44-e8c2-4522-b7ea-42e5582fa456)
+여러가지의 실험을 진행했으며 내동들을 상세히 기록했고 시각화를 통해 다양한 실험들의 결과를 저장했습니다.
 
-- []  **3. 체크리스트에 해당하는 항목들을 모두 수행하였나요? (문제 해결)**
-    - []  데이터를 분할하여 프로젝트를 진행했나요? (train, validation, test 데이터로 구분)
-    - []  하이퍼파라미터를 변경해가며 여러 시도를 했나요? (learning rate, dropout rate, unit, batch size, epoch 등)
-    - []  각 실험을 시각화하여 비교하였나요?
-    - []  모든 실험 결과가 기록되었나요?
+- [o]  **4. 프로젝트에 대한 회고가 상세히 기록 되어 있나요? (회고, 정리)**
+    - [o]  배운 점
+    - [o]  아쉬운 점
+    - [o]  느낀 점
+    - [o]  어려웠던 점
+    - ![image](https://github.com/4rldur0/AIFFEL-Quest/assets/132184507/46fc4b52-ca0e-44e7-b846-2d009e7dce90)
 
-- []  **4. 프로젝트에 대한 회고가 상세히 기록 되어 있나요? (회고, 정리)**
-    - []  배운 점
-    - []  아쉬운 점
-    - []  느낀 점
-    - []  어려웠던 점
