@@ -3,4 +3,5 @@
 kaggle_kakr_housing/logs.log
 */wandb
 pretrain_BERT/
+huggingface/outputs/
 
