@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 kaggle_kakr_housing/logs.log
 */wandb
+pretrain_BERT/
+
